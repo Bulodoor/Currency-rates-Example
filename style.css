@@ -1,0 +1,44 @@
+body {
+	font-family: "Noto Sans", sans-serif;
+}
+
+#container {
+	text-align: center;
+}
+
+#main {
+	margin: 20px auto;
+	padding: 30px 40px;
+	background-color: #dbdbdb94;
+	border: 1px solid #0000002e;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#content-wrapper {
+	margin: 10px;
+}
+
+#content-wrapper input {
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#content-wrapper > i {
+	margin: 0 3px;
+	font-size: 18px;
+}
+
+#content-wrapper select {
+	height: 25px;
+	width: 75px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#information {
+	margin-top: 15px;
+}
