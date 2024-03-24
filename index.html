@@ -21,7 +21,8 @@
 				</div>
 				<div id="content-wrapper">
 					<input id="amount" type="number" value="1" min="0">
-					<select id="firstCurrencyOption">
+					<span id="firstCurrencySymbol">&#36;</span>
+					<select id="firstCurrencyOption" class="select">
 						<option selected>USD</option>
 						<option>EUR</option>
 						<option>JPY</option>
@@ -56,10 +57,11 @@
 						<option>THB</option>
 						<option>ZAR</option>
 					</select>
+					
 
 					<i class="fa-solid fa-arrow-right"></i>
-					
-					<select id="secondCurrencyOption">
+
+					<select id="secondCurrencyOption" class="select">
 						<option>USD</option>
 						<option>EUR</option>
 						<option>JPY</option>
@@ -96,6 +98,8 @@
 					</select>
 
                     <input id="result" type="number" readonly></input>
+					<span id="secondCurrencySymbol">&#8378;</span>
+
 				</div>
                 <div id="information">
 					<i class="fa-regular fa-copyright"></i>
